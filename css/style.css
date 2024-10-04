@@ -1,0 +1,351 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* CREDIT: FOR CSS CSS RESET; JOSH W. COMEAU  (https://www.joshwcomeau.com/css/custom-css-reset/) */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient(to bottom right, bisque, beige);
+ 
+}
+
+hr{
+margin-top: 4em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+header {
+  padding: 1em 6% 1em 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(51, 87, 231) , rgb(77, 214, 218));
+}
+
+.header__h1 {
+  font-size: 12vw;
+  line-height: 2;
+}
+
+nav {
+  font-size: 5vw;
+}
+
+a {
+  font-weight: bold;
+  border-radius: 5px;
+  background-size: 100% 0;
+  transition: all 0.25s ease-in;
+  padding: 4px 2px;
+  /* background-image: linear-gradient(90deg, rgb(232, 207, 228) 0%, rgb(232, 207, 228) 100%); */
+  
+}
+
+a:hover {
+  font-weight: 0;
+  text-decoration: none;
+  background-size: 100% 100%;
+  
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+.hero {
+  background-color: black;
+  color: white;
+  margin-bottom: 3em;
+}
+
+#hero__h2 {
+  padding: 0.1em 2% 0.1em 1%;  
+}
+
+.hero img {
+  max-height: 500px;
+}
+
+.intro {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 8vw;
+}
+
+.para{
+  margin-bottom: 2em;
+}
+
+#work {
+  margin-top: 2em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-item {
+  font-size: 3vw;
+  border: 3px solid;
+  border-color: blue;
+  min-height: 200px;
+  max-height: 200px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 180%;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-color: rgb(165, 232, 161);
+  
+}
+
+/* feature first portfolio item */
+.container-item:first-child {
+  min-height: 500px;
+  flex-basis: 100%;
+}
+
+.container-item:hover {
+  border-color: red;
+  background-color: transparent;
+  transition: all 0.25s ease-in;
+}
+
+.container-item div {
+  background-color: rgb(228, 127, 127);
+  padding: 8px 10px;
+}
+
+.container-item h3 {
+  font-size: 1.8rem;
+}
+
+.container-item span {
+  font-size: 0.85rem;
+}
+
+/* portfolio project images */
+
+.ocean-sunset {
+  background-image: url("/images/ocean-sunset.jpg");
+}
+
+.nature-scenery {
+  background-image: url("/images/nature-scenery.jpg");
+}
+
+.calm-sea-iceberg {
+  background-image: url("/images/calm-sea-iceberg.jpg");
+}
+
+.beautiful-beach {
+  background-image: url("/images/beautiful-beach.jpeg");
+}
+
+.lonely-road {
+  background-image: url("/images/lonely-road.jpg")
+}
+
+/* end portfolio project images */
+
+
+.contact {
+  padding: 2em 0;
+}
+
+.contact-address {
+  font-size: 5vw;
+  font-weight: bold;
+  background-image: none;
+  color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-address a {
+  padding: 0.5em 0em; 
+}
+
+.contact address a:hover {
+  color: purple;
+
+}
+
+
+@media(min-width:768px) {
+  .hero img {
+    max-height: 800px;
+  }
+
+  #work {
+    margin-top: 1em;
+  }
+}
+
+
+@media(min-width:992px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .header__h1 {
+  font-size: 8vw;
+  }
+
+  nav {
+    font-size: 2.50vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  .hero img {
+    max-height: 400px;
+  }
+
+  #about img {
+  width: 400px;
+  }
+
+  .container-item {
+    font-size: 3vw;
+  }
+
+  .container-item span {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  .contact-address {
+    font-size: 2.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
+
+@media(min-width:1200PX) {
+  .header__h1 {
+    font-size: 6vw;
+  }
+  
+  nav {
+    font-size: 2.75vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  .hero img {
+    max-height: 600px;
+    margin-bottom: 100PX;
+  }
+
+  #about img {
+    width: 500px;
+    margin-bottom: 100PX;
+
+  }
+
+  p {
+    font-size: 2vw;
+    
+  }
+
+  .para {
+    margin-bottom: 100PX;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+}
