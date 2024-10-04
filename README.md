@@ -8,8 +8,8 @@
 - [Installation](#installation)
 - [GitHub Deployment Location (HTTPS)](#github-deployment-location-https)
 - [GitHub Repository Location](#github-repository-location)
-- [Application Screenshots](#application-screenshots)
 - [Credits](#credits)
+- [Webpage Screenshots](#webpage-screenshots)
 - [License](#license)
 
   
@@ -24,6 +24,7 @@ Greetings!
 
 ## Usage
 
+- Users can navigate the webpage by clicking on the tabs at the top or scrolling down to the section they seek to view. 
 
 
 ## Installation
@@ -42,12 +43,12 @@ Code Source:
 
 -The deployed webpage can be viewed at following URL:
 
-https://hammarou.github.io/My_Portfolio/
+
 
 
 ## GitHub Repository Location
 
-https://github.com/Hammarou/My_Portfolio/
+
 
 
 ## Credits
@@ -75,12 +76,21 @@ Reset Template (css): Josh W. Comeau
 * beautiful-beach: 
 
   https://as2.ftcdn.net/v2/jpg/08/51/83/31/1000_F_851833187_kP92CaZkYXbdyekQ9m1xIFkRijmUqtnb.jpg
-  
+
 
 * nature-scenery: 
 
   https://images.all-free-download.com/images/graphicwebp/nature_scenery_picture_elegant_reflection_lake_6931499.webp 
 
+
+## Webpage Screenshot
+
+![](screenshot1.png "First screenshot")
+![](screenshot2.png "Second screenshot")
+![](screenshot3.png "Third screenshot")
+![](screenshot4.png "Fourth screenshot")
+![](screenshot5.png "Fifth screenshot")
+![](screenshot6.png "Sixth screenshot")
 
 ## License
 
