@@ -24,19 +24,20 @@ Greetings!
 
 ## Usage
 
-- Users can navigate the webpage by clicking on the tabs at the top or scrolling down to the section they seek to view. 
+- Users can navigate the deployed webpage by clicking on the tabs at the top or scrolling down to the section they seek to view. 
+
+- The written code for this project can be found in the index.html file.
+
+- The styling can be located in the styles.css file located within the css folder
+
+- The Assets folder contains all the images utilized in the webpage application. In addition, both the resume.pdf and screenshot samples of the deployed webpage are also located (within their respective folders) inside the Assets folder.
+
+
 
 
 ## Installation
 
-Code Source:
-
-- The written code for this project can be found in the index.html file.
-
-- The styling can be located in the 
-
-- and images folder located within the Assets folder.
-  You will be able to find all the separate files for different components or modules.
+N/A
 
 
 ## GitHub Deployment Location (HTTPS)
@@ -85,12 +86,12 @@ Reset Template (css): Josh W. Comeau
 
 ## Webpage Screenshot
 
-![](screenshot1.png "First screenshot")
-![](screenshot2.png "Second screenshot")
-![](screenshot3.png "Third screenshot")
-![](screenshot4.png "Fourth screenshot")
-![](screenshot5.png "Fifth screenshot")
-![](screenshot6.png "Sixth screenshot")
+![](/Assets/screenshots/screenshot1.png "First screenshot")
+![](/Assets/screenshots/screenshot2.png "Second screenshot")
+![](/Assets/screenshots/screenshot3.png "Third screenshot")
+![](/Assets/screenshots/screenshot4.png "Fourth screenshot")
+![](/Assets/screenshots/screenshot5.png "Fifth screenshot")
+![](/Assets/screenshots/screenshot6.png "Sixth screenshot")
 
 ## License
 
