@@ -33,8 +33,6 @@ Greetings!
 - The Assets folder contains all the images utilized in the webpage application. In addition, both the resume.pdf and screenshot samples of the deployed webpage are also located (within their respective folders) inside the Assets folder.
 
 
-
-
 ## Installation
 
 N/A
