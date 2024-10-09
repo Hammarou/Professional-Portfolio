@@ -4,8 +4,8 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Usage](#usage)
 - [Installation](#installation)
+- [Usage](#usage)
 - [GitHub Deployment Location (HTTPS)](#github-deployment-location-https)
 - [GitHub Repository Location](#github-repository-location)
 - [Credits](#credits)
@@ -22,6 +22,11 @@ Greetings!
 - Therefore, the purpose of this webpage application is to display work samples performed by a prospective employee to potential employers/future clientele. The intention is to provide the employer/client the opportunity to review and assess the work samples of the prospective employee to determine their suitability as a hiring candidate.
 
 
+## Installation
+
+N/A
+
+
 ## Usage
 
 - Users can navigate the deployed webpage by clicking on the tabs at the top or scrolling down to the section they seek to view. 
@@ -33,24 +38,20 @@ Greetings!
 - The Assets folder contains all the images utilized in the webpage application. In addition, both the resume.pdf and screenshot samples of the deployed webpage are also located (within their respective folders) inside the Assets folder.
 
 
-## Installation
-
-N/A
-
-
 ## GitHub Deployment Location (HTTPS)
 
--The deployed webpage can be viewed at following URL:
+- The deployed application can be viewed at following URL:
 
-
+https://hammarou.github.io/Professional-Portfolio/
 
 
 ## GitHub Repository Location
 
-
+https://github.com/Hammarou/My-Portfolio
 
 
 ## Credits
+
 Reset Template (css): Josh W. Comeau
  
  https://www.joshwcomeau.com/css/custom-css-reset/
