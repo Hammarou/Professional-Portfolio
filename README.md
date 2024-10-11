@@ -85,12 +85,12 @@ Reset Template (css): Josh W. Comeau
 
 ## Webpage Screenshot
 
-![](/My-Portfolio/Assets/screenshots/screenshot1.png "First screenshot")
-![](/My-Portfolio/Assets/screenshots/screenshot2.png "Second screenshot")
-![](/My-Portfolio/Assets/screenshots/screenshot3.png "Third screenshot")
-![](/My-Portfolio/Assets/screenshots/screenshot4.png "Fourth screenshot")
-![](/My-Portfolio/Assets/screenshots/screenshot5.png "Fifth screenshot")
-![](/My-Portfolio/Assets/screenshots/screenshot6.png "Sixth screenshot")
+![](/Assets/screenshots/screenshot1.png "First screenshot")
+![](/Assets/screenshots/screenshot2.png "Second screenshot")
+![](/Assets/screenshots/screenshot3.png "Third screenshot")
+![](/Assets/screenshots/screenshot4.png "Fourth screenshot")
+![](/Assets/screenshots/screenshot5.png "Fifth screenshot")
+![](/Assets/screenshots/screenshot6.png "Sixth screenshot")
 
 ## License
 
